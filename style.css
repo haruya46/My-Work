@@ -1,0 +1,35 @@
+body{
+    font-size: 17px;
+}
+.header-top{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 270px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+}
+.header-rog{
+    text-align:left;
+    height:100px;
+    line-height:60px;
+}
+.header-rog p{
+    padding-top:20px;
+    font-size: 30px;
+}
+.header-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.header-menu li{
+    padding: 0 10px;
+    border-right: #ddd 1px solid;
+}
+.header-menu img{
+    width:20px
+}
