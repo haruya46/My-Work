@@ -1,5 +1,14 @@
 body{
     font-size: 17px;
+
+}
+p{
+    margin:0px;
+    padding:0px;
+    font-size: 15px;
+}
+h2{
+
 }
 .header-top{
     max-width: 960px;
@@ -11,13 +20,7 @@ body{
     padding: 0 4%;
 
 }
-.header-rog{
-    text-align:left;
-    height:100px;
-    line-height:60px;
-}
 .header-rog p{
-    padding-top:20px;
     font-size: 30px;
 }
 .header-menu ul{
@@ -32,4 +35,56 @@ body{
 }
 .header-menu img{
     width:20px
+}
+.main-img img{
+    width: 100%;
+    max-width: 1920px;
+    height: 420px;
+    object-fit: cover;
+}
+.main-top{
+    text-align: center;
+    margin:0 25%;
+    max-width: 1170px;
+}
+.About-text{
+    text-align: left;
+}
+.About-text-fast{
+    margin:40px 0;
+}
+.About-text-profile{
+    margin-top: 40px;
+}
+.Works{
+    margin-top:100px;
+}
+.works-top{
+    margin-bottom: 50px;
+}
+.works-Photo img{
+    width: 25%;
+    padding:10px
+}
+.news{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+.news-sab dl{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+}
+.news-sab dt{
+    width: 20%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    margin:0px;
+}
+.news-sab dd{
+    width: 80%;
+    border-bottom: solid 1px #c8c8c8;
+    padding: 15px;
+    margin:0px;
 }
