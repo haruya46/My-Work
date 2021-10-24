@@ -7,8 +7,10 @@ p{
     padding:0px;
     font-size: 15px;
 }
-h2{
-
+*{
+    font-size: 17px;
+    padding:0;
+    margin:0;
 }
 .header-top{
     max-width: 960px;
@@ -44,8 +46,8 @@ h2{
 }
 .main-top{
     text-align: center;
-    margin:0 25%;
-    max-width: 1170px;
+    margin:25% 25% 0 25%;
+    max-width: 960px;
 }
 .About-text{
     text-align: left;
@@ -70,21 +72,49 @@ h2{
     margin-top:100px;
     margin-bottom: 50px;
 }
+.news-sab{
+    margin-top: 50px;
+}
 .news-sab dl{
     display: flex;
     flex-wrap: wrap;
     border-top: solid 1px #c8c8c8;
     margin-bottom: 20px;
+    max-width: 670px;
 }
 .news-sab dt{
     width: 20%;
     border-bottom: solid 1px #c8c8c8;
-    padding: 15px;
+    padding:10px 0px;
     margin:0px;
 }
 .news-sab dd{
     width: 80%;
     border-bottom: solid 1px #c8c8c8;
-    padding: 15px;
+    padding:10px 0px;
     margin:0px;
+}
+form{
+    display: block;
+    margin: 40px 0;
+}
+.from dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.from dt{
+    width: 15%;
+}
+.from dd{
+    width: 85%;
+    margin-bottom: 10px;
+}
+.submit input{
+    background-color: black;
+    color: floralwhite;
+    border: solid 1px #24292e;
+    width: 200px;
+    padding: 15px 0;
+
 }

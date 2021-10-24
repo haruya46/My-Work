@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Work</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"> 
+        <link href="res.css" rel="stylesheet">
+
+
     </head>
     <body>
         <header class="header-top">
@@ -11,6 +16,9 @@
                 <p>My Work</p>
             </div>
             <div class="header-menu">
+                <span></span>
+                <span></span>
+                <span></span>
                 <ul class="header-ul">
                     <li>About</li>
                     <li>Works</li>
@@ -70,11 +78,39 @@
                     </div>
 
                 </div>
+
+            
+                <div class="contact">
+                    <h2>Contact</h2>
+
+                    <div class="from">
+                        <form action"#" method="post">
+                            <dl>
+                                <dt><label for="rendou">Name</label></dt>
+                                <dd><input id="rendou" type="text" name="yourname"></dd>
+                                <dt><label for="email">email</label></dt>
+                                <dd><input id="email" type="email" name="yourmail"></dd>
+                                <dt><label for="comment">MESSAGE</label></dt>
+                                <dd><textarea id="comment" name="comment"></textarea></dd>
+                            </dl>
+                            <div class="submit">
+                                <input type="submit" value="送信する">
+                            </div>
+                        </form>
+                </div>
             </div>
+                
 
 
 
         </main>
+        <footer>
+            <h2>footer</h2>
 
+        </footer>
+
+        
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,0 +1,25 @@
+
+@media all and (max-width:670px) {
+    /*スマホ用デザイン*/
+    *{box-sizing: border-box;}
+    .header-top{
+        height: 100px;
+    }
+    .header-ul li{
+        display: none;
+    }
+    .main-top{
+        text-align: left;
+        margin:25% 0 0 10%;
+    }
+    .works-Photo img{
+        width:100%;
+    }
+   .news-sab dt{
+       padding-right:10px
+   }
+   .from dl{
+       display: block;
+   }
+
+}
